@@ -1,0 +1,82 @@
+name: clone
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.2.0
+  cloud_firestore: ^5.3.0
+  firebase_storage: ^12.2.0
+  provider: ^6.1.2
+  cached_network_image: ^3.4.0
+  cupertino_icons: ^1.0.8
+  equatable: ^2.0.5
+  flutter_bloc: ^8.0.1  # Add this line for BLoC support
+  http: ^1.2.2
+  image_picker: ^1.1.2
+  google_sign_in: ^6.2.1
+  flutter_screenutil: ^5.9.3
+  permission_handler: ^11.1.0
+  firebase_database: ^11.1.2
+  # cloud_firestore: ^5.4.1
+  file_picker: ^8.1.2
+  path: ^1.9.0
+  carousel_slider: ^5.0.0
+  intl: ^0.19.0
+  # cached_network_image: ^3.4.1
+  # flutter_webview_plugin: ^0.4.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/insta_logo.png
+    - assets/signup.png
+    - assets/facebooklogo.png
+    - assets/play.png
+    - assets/micro.png
+    - assets/ig.png
+    - assets/pic1.jpg
+    - assets/pic2.jpg
+    - assets/pic3.jpg
+    - assets/pic4.jpg
+    - assets/pic5.jpg
+    - assets/pic6.jpg
+    - assets/pic7.jpg
+    - assets/pic8.jpg
+    - assets/pic9.jpg
+    - assets/pic10.jpg
+    - assets/instagram.jpg
+    - assets/camera.jpg
+    - assets/message.jpg
+    - assets/instagram-reels-icon.png
+    - assets/meta.png
+    - assets/save.png
+    - assets/send.jpg
+    - assets/@.png
+    - assets/add-contact.png
+    - assets/msg.png
+    - assets/love.png
+    - assets/favorite.png
+    - assets/home1.png
+    - assets/home2.png
+    - assets/reel1.png
+    - assets/reel2.png
+    - assets/create1.png
+    - assets/create2.png
+    - assets/search1.png
+    - assets/search2.png
+
